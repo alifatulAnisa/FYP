@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="bottom_nav_overlay">
+            <!-- selected item -->
+            <item name="colorPrimary">@color/black</item>
+            <!-- other -->
+            <item name="colorOnSurface">@color/grey</item>
+    </style>
+</resources>

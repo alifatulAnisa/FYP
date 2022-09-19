@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginRegister.Profile"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Profile"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#641E16"
+        android:textAllCaps="false"
+        android:background="#F5B7B1"
+        android:drawableRight="@drawable/ic_power_off_solid"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/txtGreeting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#641E16"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/custom_edit_text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="40dp"
+                    android:padding="10dp"
+                    android:background="@drawable/custom_input"
+                    android:text="Email:"
+                    android:inputType="textPersonName"
+                    android:textSize="18dp"
+                    android:textColor="#F08080"/>
+
+                <EditText
+                    android:id="@+id/txtEmailSeller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="40dp"
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    android:textSize="18dp"
+                    android:textColor="#F5B7B1"
+                    android:textAlignment="viewEnd"
+                    android:background="@drawable/custom_input"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/custom_input"
+                    android:text="Username:"
+                    android:inputType="textPersonName"
+                    android:textSize="18dp"
+                    android:textColor="#F08080"/>
+
+                <EditText
+                    android:id="@+id/txtUsernameSeller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    android:textSize="18dp"
+                    android:textColor="#F5B7B1"
+                    android:textAlignment="viewEnd"
+                    android:background="@drawable/custom_input"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/custom_input"
+                    android:text="Phone Number:"
+                    android:inputType="textPersonName"
+                    android:textSize="18dp"
+                    android:textColor="#F08080"/>
+
+                <EditText
+                    android:id="@+id/txtPhoneSeller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    android:textSize="18dp"
+                    android:textColor="#F5B7B1"
+                    android:textAlignment="viewEnd"
+                    android:background="@drawable/custom_input"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/custom_input"
+                    android:text="Password:"
+                    android:inputType="textPersonName"
+                    android:textSize="18dp"
+                    android:textColor="#F08080"/>
+
+                <EditText
+                    android:id="@+id/txtPassSeller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    android:text=".................."
+                    android:textSize="18dp"
+                    android:textColor="#F5B7B1"
+                    android:textAlignment="viewEnd"
+                    android:background="@drawable/custom_input"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnUpdateProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="0dp"
+                android:background="#F5B7B1"
+                android:text="Update Profile"
+                android:textAllCaps="false"
+                android:textColor="#641E16"
+                android:textSize="20dp"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="20dp"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_menu"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"/>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_plus_solid"
+        app:maxImageSize="40dp"
+        android:backgroundTint="@color/white"
+        app:layout_anchor="@id/bottomApp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

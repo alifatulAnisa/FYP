@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".LoginRegister.UpdateProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            android:text="Update Profile"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#641E16"
+            android:background="#F5B7B1"
+            android:drawableLeft="@drawable/ic_baseline_arrow_back_24"/>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint="Email"
+            android:textColorHint="#F5B7B1"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"/>
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint="username"
+            android:textColorHint="#F5B7B1"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"/>
+
+        <EditText
+            android:id="@+id/txtPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:textColorHint="#F5B7B1"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"/>
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint="Password"
+            android:textColorHint="#F5B7B1"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"/>
+
+        <Button
+            android:id="@+id/btnUpdateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="56dp"
+            android:background="#F5B7B1"
+            android:text="Update"
+            android:textColor="#641E16"/>
+
+        <!--Button
+            android:id="@+id/btnDeleteProduct"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#F5B7B1"
+            android:text="Delete Product"
+            android:textColor="@color/white"/-->
+
+    </LinearLayout>
+
+</ScrollView>

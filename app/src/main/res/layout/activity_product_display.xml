@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".Products.ProductDisplay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBackProduct"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            android:text="Product"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#641E16"
+            android:background="#F5B7B1"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_baseline_arrow_back_24"/>
+
+        <ImageView
+            android:id="@+id/imgProductR"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_add_photo"/>
+
+        <EditText
+            android:id="@+id/txtProdNameR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint="Enter product name"
+            android:textColorHint="#F5B7B1"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"/>
+
+        <EditText
+            android:id="@+id/txtCatName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint=""
+            android:textColorHint="#F5B7B1"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"/>
+
+        <EditText
+            android:id="@+id/dateManufacturedR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint="Select manufactured date"
+            android:textColorHint="#F5B7B1"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"
+            android:drawableEnd="@drawable/ic_baseline_calendar_month_24"/>
+
+        <EditText
+            android:id="@+id/dateExpiryR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint="Select expiry date"
+            android:textColorHint="#F5B7B1"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"
+            android:drawableEnd="@drawable/ic_baseline_calendar_month_24"/>
+
+        <EditText
+            android:id="@+id/priceR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint="Enter quantity"
+            android:textColorHint="#F5B7B1"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"/>
+
+        <EditText
+            android:id="@+id/numQuantityR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_text"
+            android:ems="10"
+            android:hint="Enter quantity"
+            android:textColorHint="#F5B7B1"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"/>
+
+        <!--TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Product Expiry Date Reminder"
+            android:textSize="15dp"
+            android:textColor="#F5B7B1"
+            android:drawableRight="@drawable/ic_toggle_on_solid"/-->
+
+        <Button
+            android:id="@+id/btnUpdateProduct"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="56dp"
+            android:background="#F5B7B1"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textColor="#641E16"/>
+
+        <Button
+            android:id="@+id/btnDeleteProduct"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#F5B7B1"
+            android:text="Delete Product"
+            android:textAllCaps="false"
+            android:textColor="#641E16"/>
+
+    </LinearLayout>
+
+</ScrollView>

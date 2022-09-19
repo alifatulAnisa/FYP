@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Products.Category"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/btnAddNewCat"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Category"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:textColor="#641E16"
+        android:background="#F5B7B1"
+        android:padding="10dp"
+        android:drawableRight="@drawable/ic_baseline_add_24"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchViewCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                app:queryHint="Search category"
+                android:background="@drawable/search_view"
+                app:iconifiedByDefault="false"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewCategory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="20dp"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_menu"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"/>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_plus_solid"
+        app:maxImageSize="40dp"
+        android:backgroundTint="@color/white"
+        app:layout_anchor="@id/bottomApp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

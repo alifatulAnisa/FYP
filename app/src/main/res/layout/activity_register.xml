@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".LoginRegister.Register">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/button_register"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter username"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="#F5B7B1"
+        android:textColor="#F5B7B1"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="#F5B7B1"
+        android:textColor="#F5B7B1"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColorHint="#F5B7B1"
+        android:textColor="#F5B7B1"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#F5B7B1"
+        android:textColor="#F5B7B1"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="#F5B7B1"
+        android:textColor="#641E16"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:transitionName="transition_register_btn"/>
+
+    <Button
+        android:id="@+id/btnLoginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have account? Login here"
+        android:layout_gravity="center"
+        android:background="@drawable/corner"
+        android:textColor="#641E16"
+        android:textSize="13dp"
+        android:layout_marginTop="15dp"
+        android:transitionName="transition_login_btn"/>
+
+</LinearLayout>

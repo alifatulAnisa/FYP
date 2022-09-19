@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/drawable-v24/custom_edit_text.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable-v24/custom_input.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable-v24/ic_list_solid.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable-v24/ic_power_off_solid.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/custom_search.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/dropdown_shape.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_add_photo.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_arrow_forward.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_toggle_on_solid.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/input_text.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/search_view.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/selector.xml" value="0.137" />
+        <entry key="app/src/main/res/layout/activity_add_category.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_add_makeup.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_add_product.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_add_product2.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_add_skincare.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_category.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_category_product.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_category_product_display.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_list_product.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.21296296296296297" />
+        <entry key="app/src/main/res/layout/activity_makeup.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_makeup_product.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_notification.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_notification_setting.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_product_add_category.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_product_add_makeup.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_product_add_skincare.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_product_category.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_product_display.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_product_image.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.21296296296296297" />
+        <entry key="app/src/main/res/layout/activity_skincare.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_skincare_acticity_product.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_skincare_product.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_update_delete_product.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/activity_update_profile.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/category_dialog.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/category_entry.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/category_product_display_entry.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/list_category.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/makeup_entry.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/notification_entry.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/product_entry.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/product_makeup_entry.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/product_skincare_entry.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/skincare_entry.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/update_popup_makeup.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/update_popup_skincare.xml" value="0.21296296296296297" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.240625" />
+        <entry key="app/src/main/res/menu/menu_option.xml" value="0.240625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

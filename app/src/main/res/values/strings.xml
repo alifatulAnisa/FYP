@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyFyp</string>
+
+    <string-array name="Category">
+        <item>Categories</item>
+        <item>Makeup</item>
+        <item>Skincare</item>
+    </string-array>
+</resources>
