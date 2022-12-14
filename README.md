@@ -16,7 +16,5 @@ Module Account Registration
 
 Module Manage Product
 
-![photo_2022-08-09 13 04 51](https://user-images.githubusercontent.com/56688632/207653439-e0e853e3-5b21-41bc-b461-41f3606d6ba8.jpeg)
-
-![photo_2022-08-09 13 04 52](https://user-images.githubusercontent.com/56688632/207653579-de17d6bb-803e-4736-b6c5-d7bb393fb9c2.jpeg)
+![5BE38E57-F9DE-4364-8A02-0E3799693691](https://user-images.githubusercontent.com/56688632/207653813-5329af0a-a65d-471e-ae0d-79fa908a396e.png)
 
