@@ -11,4 +11,12 @@
 
 # Screenshot of System
 Module Account Registration
+
 <img width="278" alt="C344F716-D5D7-4584-8C6D-F3B269C310EC" src="https://user-images.githubusercontent.com/56688632/207653247-9718e67c-b087-4d9f-9331-4ea86c0427bc.png">
+
+Module Manage Product
+
+![photo_2022-08-09 13 04 51](https://user-images.githubusercontent.com/56688632/207653439-e0e853e3-5b21-41bc-b461-41f3606d6ba8.jpeg)
+
+![photo_2022-08-09 13 04 52](https://user-images.githubusercontent.com/56688632/207653579-de17d6bb-803e-4736-b6c5-d7bb393fb9c2.jpeg)
+
